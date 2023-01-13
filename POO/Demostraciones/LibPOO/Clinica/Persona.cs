@@ -10,7 +10,7 @@ namespace LibPOO.Clinica
     {
         public string Apellido { get; set; }
         public string Nombre{ get; set; }
-
+        public DateTime FechaNacimiento { get; set; }
         public virtual string Imprimir() {
             return "Apellido: " + Apellido + " Nombre: " + Nombre;
         }

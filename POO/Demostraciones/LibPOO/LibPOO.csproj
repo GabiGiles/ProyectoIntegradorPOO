@@ -45,15 +45,21 @@
     <Compile Include="Archivos\ArchivoTxt.cs" />
     <Compile Include="Archivos\ArchivoXml.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Clinica\Enfermero.cs" />
     <Compile Include="Clinica\Medico.cs" />
     <Compile Include="Clinica\Paciente.cs" />
     <Compile Include="Clinica\Persona.cs" />
+    <Compile Include="Director.cs" />
     <Compile Include="Estaticos\Calculadora.cs" />
     <Compile Include="Estaticos\Cliente.cs" />
     <Compile Include="Musicos\Musico.cs" />
     <Compile Include="Musicos\MusicoGuitarrista.cs" />
     <Compile Include="Musicos\MusicoPianista.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaErrores\Evento.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

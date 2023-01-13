@@ -14,5 +14,9 @@ namespace LibPOO.Clinica
         {
             return base.Imprimir() + " N° historia Clinica " + NroHistClinica ; 
         }
+
+        //Propiedad de navegación
+        //un paciente---un medico
+        public Medico Medico { get; set; }
     }
 }
